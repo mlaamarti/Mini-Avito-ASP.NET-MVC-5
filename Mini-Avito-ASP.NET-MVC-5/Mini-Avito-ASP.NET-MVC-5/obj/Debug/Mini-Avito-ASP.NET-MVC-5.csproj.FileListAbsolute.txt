@@ -71,6 +71,11 @@ C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito
 C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\bin\System.Web.Webpages.Razor.xml
 C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\bin\System.Web.Helpers.xml
 C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\bin\System.Web.Mvc.xml
-C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini-Avito-ASP.NET-MVC-5.csprojResolveAssemblyReference.cache
 C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini-Avito-ASP.NET-MVC-5.dll
 C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini-Avito-ASP.NET-MVC-5.pdb
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini_Avito_ASP.NET_MVC_5.Migrations.InitialCreate.resources
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini-Avito-ASP.NET-MVC-5.csproj.GenerateResource.Cache
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini_Avito_ASP.NET_MVC_5.Migrations.addColumn.resources
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini_Avito_ASP.NET_MVC_5.Migrations.addCategoryTable.resources
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini_Avito_ASP.NET_MVC_5.Migrations.addJobTable.resources
+C:\Users\LM\Desktop\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\Mini-Avito-ASP.NET-MVC-5\obj\Debug\Mini-Avito-ASP.NET-MVC-5.csprojResolveAssemblyReference.cache

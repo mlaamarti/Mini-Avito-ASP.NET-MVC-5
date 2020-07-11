@@ -1,0 +1,57 @@
+﻿@model Mini_Avito_ASP.NET_MVC_5.Models.Job
+
+@{
+    ViewBag.Title = "Supprimer";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Supprimer</h2>
+
+<h3>Voulez-vous vraiment supprimer cela?</h3>
+<div>
+    <h4>Emploi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.category.categoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.category.categoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jobTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jobTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jobContent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jobContent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jobImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jobImage)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Retour à la liste", "Index")
+        </div>
+    }
+</div>

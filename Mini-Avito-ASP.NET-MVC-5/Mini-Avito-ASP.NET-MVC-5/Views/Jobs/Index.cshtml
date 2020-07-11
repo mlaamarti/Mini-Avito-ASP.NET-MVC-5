@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Mini_Avito_ASP.NET_MVC_5.Models.Job>
+
+@{
+    ViewBag.Title = "Liste d'emplois";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Liste d'emplois</h2>
+
+<p>
+    @Html.ActionLink("Créer un nouveau emploi", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.category.categoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.jobTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.jobContent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.jobImage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.category.categoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.jobTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.jobContent)
+        </td>
+        <td>
+            <img src="~/Uploads/@Html.DisplayFor(modelItem => item.jobImage)" height="50" class="thubnail" />
+        </td>
+        <td>
+            @Html.ActionLink("Éditer", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Détails", "Details", new { id=item.id }) |
+            @Html.ActionLink("Supprimer", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

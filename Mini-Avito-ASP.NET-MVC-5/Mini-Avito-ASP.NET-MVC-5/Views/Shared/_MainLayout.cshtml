@@ -14,19 +14,20 @@
                     <img src="https://www.avito.ma/img/logo-rbnd.png" height="30" />
                 </h5>
                 <nav class="my-2 my-md-0 mr-md-3">
-                    <a class="p-2 text-dark" href="#">Accueil</a>
+                    <a class="p-2 text-dark" href="/home">Accueil</a>
                     <a class="p-2 text-dark" href="#">Catégories d'offres</a>
                     <a class="p-2 text-dark" href="#">à propos de nous</a>
                     <a class="p-2 text-dark" href="#">Nous contacter</a>
                 </nav>
-                <a class="btn btn-outline-primary" href="#">Se connecter</a> &ensp;&ensp;
-                <a class="btn btn-outline-success" href="#">S'inscrire</a>
+              
+                <!--- Partial Login View-->
+                @Html.Partial("_Login")
             </div>
 
             @RenderBody()
 
             <!-- Footer -->
-            <footer class="blog-footer">
+            <footer class="blog-footer" style="margin-top:40px">
                 <p>Copyright © 1996–2020 MiniAvito.ma™. All rights reserved. <a href="#">Mini Avito</a> by <a href="https://github.com/mlaamarti">Laamarti Mohamed</a>.</p>
             </footer>
         </div>

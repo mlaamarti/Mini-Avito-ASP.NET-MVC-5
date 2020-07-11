@@ -8,6 +8,7 @@ namespace WebApplication1.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        public string UserName { get; internal set; }
     }
 
     public class ExternalLoginListViewModel
@@ -64,6 +65,17 @@ namespace WebApplication1.Models
 
     public class RegisterViewModel
     {
+
+
+        [Required]
+        [Display(Name = "Nom")]
+        public string UserName { get; set; }
+
+        [Required]
+        [Display(Name = "Type de compte")]
+        public string UserType { get; set; }
+
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

@@ -1,0 +1,41 @@
+﻿@model Mini_Avito_ASP.NET_MVC_5.Models.Category
+
+@{
+    ViewBag.Title = "Supprimer";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Supprimer</h2>
+
+<h3>Voulez-vous vraiment supprimer cela?</h3>
+<div>
+    <h4>Catégorie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryDescription)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Retour à la liste", "Index")
+        </div>
+    }
+</div>
